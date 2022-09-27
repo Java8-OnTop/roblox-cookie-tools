@@ -33,12 +33,20 @@ def menu():
     t3 = threading.Thread(target=process1)
     t4 = threading.Thread(target=process1)
     t5 = threading.Thread(target=process1)
-
+    t6 = threading.Thread(target=process1)
+    t7 = threading.Thread(target=process1)
+    t8 = threading.Thread(target=process1)
+    t9 = threading.Thread(target=process1)
+    
     t1.start()
     t2.start()
     t3.start()
     t4.start()
     t5.start()
+    t6.start()
+    t7.start()
+    t8.start()
+    t9.start()
 
   elif choice == '2':
     os.system('cls')
